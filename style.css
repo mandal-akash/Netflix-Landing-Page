@@ -26,7 +26,7 @@ body {
 }
 
 nav {
-  max-width: 60vw;
+  max-width: 80vw;
   justify-content: space-between;
   margin: auto;
   display: flex;
@@ -83,6 +83,7 @@ input::placeholder {
 }
 
 .getStartedBtn {
+  margin: 15px;
   padding: 9px 40px 10px 30px;
   font-size: 25px;
   font-weight: 300;
@@ -134,27 +135,28 @@ input::placeholder {
 }
 
 .first {
-  max-width: 73vw;
-  height: 80vh;
+  max-width: 80vw;
+  height: 65vh;
   margin: auto;
   display: flex;
   color: white;
   align-items: center;
   justify-content: center;
+  /* flex-wrap: wrap; */
 }
 
 .promoImg {
   position: relative;
 }
 .first .promoImg img {
-  width: 38vw;
+  width: 470px;
   z-index: 10;
   position: relative;
 }
 
 .promoImg video {
   position: absolute;
-  width: 30vw;
+  width: 370px;
   right: 55px;
   top: 64px;
 }
@@ -178,12 +180,12 @@ input::placeholder {
 }
 
 .second .promoImg img {
-  width: 35vw;
+  width: 480px;
 }
 
 .video2 video {
   position: absolute;
-  width: 24vw;
+  width: 300px;
   top: 40px;
   right: 90px;
 }

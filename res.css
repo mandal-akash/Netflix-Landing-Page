@@ -1,0 +1,50 @@
+@media screen and (max-width: 1020px) {
+  .first {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .headingChild {
+    font-size: 18px;
+  }
+
+  .boxText h1 {
+    font-size: 32px;
+  }
+
+  .boxText p {
+    font-size: 18px;
+  }
+
+  nav {
+    max-width: 90vw;
+  }
+
+  nav img {
+    width: 100px;
+  }
+
+  .first .promoImg img {
+    width: 370px;
+  }
+
+  .promoImg video {
+    width: 270px;
+  }
+
+  .second .promoImg img {
+    width: 350px;
+  }
+
+  .video2 video {
+    width: 210px;
+  }
+
+  .faqHeading{
+    font-size: 30px;
+  }
+}
